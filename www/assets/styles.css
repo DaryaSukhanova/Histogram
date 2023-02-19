@@ -1,0 +1,76 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+html, body{
+   height: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+}
+body{
+   background-color: rgb(245, 245, 245);
+}
+.wrapper{
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.container{
+   max-width: 1180px;
+   margin: 0 auto;
+}
+
+.main{
+   flex: 1 1 auto;
+   margin-top: 50px;
+   
+}
+h1{
+   font-size: 24px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+input {
+   all: unset;
+}
+
+.chart-page-value{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.quantity{
+   margin-right: 5px;
+   border: none;
+   background-color: rgb(245, 245, 245);
+   margin-bottom: 7px;
+   padding: 5px;
+   border-radius: 2px;
+}
+svg{
+   overflow: visible;
+   margin-bottom: 200px;
+}
+
+form{
+   /* border: solid; */
+   border-radius: 10px;
+   padding: 40px 50px ;
+   background-color: rgb(255, 255, 255);
+}
+.chart-page-send input{
+   display: block;
+   margin: 15px auto;
+   border: none;
+   border-radius: 50px;
+   background-color: rgb(88, 182, 254);   
+   color: white;
+   text-align: center;
+   width: 150px;
+   height: 35px;
+   cursor: pointer;
+   box-shadow: 2px 2px 2px 0px rgba(34, 60, 80, 0.18);
+}
+
+   
